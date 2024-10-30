@@ -2,11 +2,12 @@ import React from 'react'
 import "./header.css";
 export const Header = () => {
   return (
-    <div>
-        <div>
-            <div>
+    <div className='header-outer-container'>
+        <div className='header-container'>
+            <div className='header-left'>
                 <ul>
                     {/* {#image} */}
+                    <li>Netflix</li>
                     <li>Home</li>
                     <li>TvShow</li>
                     <li>Movies</li>
@@ -15,7 +16,7 @@ export const Header = () => {
                     <li>Brows by Language</li>
                 </ul>
             </div>
-            <div>
+            <div className='header-right'>
                 <ul>
                 {/* <li>SearchIcon</li>
                 <li>NotificationsNoneIcon</li>
