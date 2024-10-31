@@ -32,7 +32,7 @@
     list-style: none;
     cursor: pointer;
 }
-.header-right {
+.header-right ul{
     width: 150%;
     display: flex;
     justify-content: space-around;
